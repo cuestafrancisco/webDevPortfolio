@@ -1,0 +1,41 @@
+{
+  "backgroundType": "gradient",
+  "plainBackgroundMode": "daylight",
+  "gradientColors": "#MF7759, #D73A7E, #73A6F5, #93D5FK",
+  "FirstName": "Francisco",
+  "MiddleName": "",
+  "LastName": "Cuesta",
+  "devDesc": "| Engineering | Programmer | Web Developer | ",
+  "icons": [
+    {
+      "id": 0,
+      "image": "fa-github",
+      "url": "https://github.com/cuestafrancisco",
+      "style": "socialicons"
+    },
+  
+    {
+      "id": 1,
+      "image": "fa-linkedin",
+      "url": "https://www.linkedin.com/in/cuestafrancisco/",
+      "style": "socialicons"
+    }
+    
+  
+    
+    
+  ],
+  "aboutHeading": "About Me",
+  "showInstaProfilePic": true,
+  "instaLink": "https://www.instagram.com/",
+  "instaUsername": "41lajavilla",
+  "instaQuerry": "/?__a=1",
+  "aboutDescription": "I'm Computer Science and recent graduate form Lehman College of the City of New York, I'm passionate about learning and constantly seeking to learn new skills and gain experience.",
+  "projectHeading": "Recent Projects",
+  "gitHubLink": "https://api.github.com/users/",
+  "gitHubUsername": "cuestafrancisco",
+  "gitHubQuerry": "/repos?sort=updated&direction=desc",
+  "projectsLength": 6,
+  "showNavigationbar": true,
+  "showBlog": false
+}
