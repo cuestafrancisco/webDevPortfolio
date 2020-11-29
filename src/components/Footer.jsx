@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ProgressBar from 'react-bootstrap/ProgressBar'
+//import ProgressBar from 'react-bootstrap/ProgressBar'
 
 const Footer = () => {
   const [bgStyle] = useState({ backgroundColor: "#f5f5f5" });

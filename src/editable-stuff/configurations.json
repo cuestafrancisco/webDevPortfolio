@@ -5,7 +5,7 @@
   "FirstName": "Francisco",
   "MiddleName": "",
   "LastName": "Cuesta",
-  "devDesc": "| Engineering | Programmer | Web Developer | ",
+  "devDesc": "|| Engineering | Programmer | Web Developer | ",
   "icons": [
     {
       "id": 0,
