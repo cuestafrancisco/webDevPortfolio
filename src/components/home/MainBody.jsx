@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import Typist from "react-typist";
 import {
-  FirstName,
-  LastName,
-  MiddleName,
+ 
   devDesc,
   icons,
 } from "../../editable-stuff/configurations.json";

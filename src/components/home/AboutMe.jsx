@@ -26,7 +26,7 @@ const AboutMe = () => {
       .get(instaLink + instaUsername + instaQuerry)
       .then((response) => {
         // handle success
-        // console.log(response.data.graphql);
+        console.log(response.data.graphql);
         return setInstaProfilePic(
           response.data.graphql.user.profile_pic_url_hd
         );

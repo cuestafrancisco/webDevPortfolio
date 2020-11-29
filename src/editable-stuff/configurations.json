@@ -10,7 +10,7 @@
     {
       "id": 0,
       "image": "fa-github",
-      "url": "https://github.com/cuestafrancisco",
+      "url": "https://github.com/cuesta.francisco",
       "style": "socialicons"
     },
   
@@ -30,12 +30,12 @@
   "instaLink": "https://www.instagram.com/",
   "instaUsername": "41lajavilla",
   "instaQuerry": "/?__a=1",
-  "aboutDescription": "Im a Senior Student of Computer Science at Lehman College of the City of New York, with the upmost desire to learn and polish the newly found skills and gained experience.",
+  "aboutDescription": "I'm a Senior at Lehman College of the City of New York studying Computer Science. Looking to hone my current skills and gained experience.",
   "projectHeading": "Recent Projects",
   "gitHubLink": "https://api.github.com/users/",
   "gitHubUsername": "cuestafrancisco",
   "gitHubQuerry": "/repos?sort=updated&direction=desc",
-  "projectsLength": 6,
+  "projectsLength": 4,
   "showNavigationbar": true,
   "showBlog": false
 }
