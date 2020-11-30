@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Pdf from "../../editable-stuff/resume.pdf";
+import mepic from "../../editable-stuff/mepic.jpg";
 import {
   aboutHeading,
   aboutDescription,
@@ -34,7 +35,7 @@ const AboutMe = () => {
       .catch((error) => {
         // handle error
         setShowInsta(false);
-        return console.error(error.message);
+        //return console.error(error.message);
       })
       .finally(() => {
         // always executed
@@ -45,10 +46,15 @@ const AboutMe = () => {
     <div id="aboutme" className="jumbotron jumbotron-fluid m-0">
       <div className="container container-fluid p-5">
         <div className="row">
+        
           {showInsta && (
             <div className="col-5 d-none d-lg-block align-self-center">
+            
               <img
                 className="border border-secondary rounded-circle"
+                className="border border-secondary rounded-circle"
+                  src = "/images/mepic.jpg"
+                src={mepic}
                 src={instaProfilePic}
                 alt="profilepicture"
               />
