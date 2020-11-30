@@ -29,7 +29,7 @@ const AboutMe = () => {
         // handle success
        // console.log(response.data.graphql);
         return setInstaProfilePic(
-          response.data.graphql.user.profile_pic_url_hd
+          response.data.graphql.user.profile_pic_url
         );
       })
       .catch((error) => {
@@ -43,36 +43,31 @@ const AboutMe = () => {
   };
 
   return (
-    <div id="aboutme" className="jumbotron jumbotron-fluid m-0">
-      <div className="container container-fluid p-5">
+    <div id="aboutme" className="jumbotron jumbotron-fluid">
+      <div className="container container-fluid p-4">
         <div className="row">
-        
-          {showInsta && (
-            <div className="col-5 d-none d-lg-block align-self-center">
-            
-              <img
-                className="border border-secondary rounded-circle"
-                className="border border-secondary rounded-circle"
-                  src = "/images/mepic.jpg"
-                src={mepic}
-                src={instaProfilePic}
-                alt="profilepicture"
+       
+        <div className="col-5 d-none d-lg-block align-self-center">
+              < img 
+                    className="border border-secondary rounded-circle"
+                    src = {mepic}
+                    style={{width: 200, height: 200, borderRadius: 600/ 2}}
               />
-            </div>
-          )}
+        </div>
+   
           <div className={`col-lg-${showInsta ? "7" : "12"}`}>
-            <h1 className="display-4 mb-5 text-center">{aboutHeading}</h1>
-            <p className="lead text-center">{aboutDescription}</p>
-            {resumeURL && (
-              <p className="lead text-center">
-                <a
-                  className="btn btn-outline-dark btn-lg"
-                  href={Pdf}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  role="button"
-                  aria-label="Resume/CV"
-                >
+                    <h1 className="display-4 mb-5 text-center">{aboutHeading}</h1>
+                    <p className="lead text-center">{aboutDescription}</p>
+                    {resumeURL && (
+                      <p className="lead text-center">
+                        <a
+                          className="btn btn-outline-dark btn-lg"
+                          href={Pdf}
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          role="button"
+                          aria-label="Resume/CV"
+                        >
                   Resume
                 </a>
               </p>
