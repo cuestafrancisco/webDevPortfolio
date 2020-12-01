@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Pdf from "../../editable-stuff/resume.pdf";
 import mepic from "../../editable-stuff/mepic.jpg";
+
+//imports data from configuration.json
 import {
   aboutHeading,
   aboutDescription,
@@ -11,6 +13,7 @@ import {
   instaQuerry,
 } from "../../editable-stuff/configurations.json";
 
+// useState setDataState
 const AboutMe = () => {
   const [instaProfilePic, setInstaProfilePic] = useState("");
   const [showInsta, setShowInsta] = useState(showInstaProfilePic);
@@ -22,6 +25,8 @@ const AboutMe = () => {
     }
   }, [showInsta]);
 
+
+  //variable handleRequest returns axios get request
   const handleRequest = (e) => {
     axios
       .get(instaLink + instaUsername + instaQuerry)

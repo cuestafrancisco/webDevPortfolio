@@ -1,5 +1,5 @@
 import React from "react";
-import bloglist from "../../editable-stuff/blog";
+import bloglist from "../../src/editable-stuff/blog";
 const BlogPost = ({ match }) => {
   const { id } = match.params;
   const post = bloglist[id];

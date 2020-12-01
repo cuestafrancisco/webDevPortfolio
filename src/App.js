@@ -12,7 +12,7 @@ import AboutMe from "./components/home/AboutMe";
 import Project from "./components/home/Project";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import { Blog } from "./components/blog/Blog";
+//import { Blog } from "./components/blog/Blog";
 import BlogPost from "./components/blog/BlogPost";
 
 const Home = () => {
@@ -29,7 +29,7 @@ const App = () => (
   <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
     {showNavigationbar && <Navbar />}
     <Route path="/" exact component={Home} />
-    {showBlog && <Route path="/blog" exact component={Blog} />}
+   {/* {showBlog && <Route path="/blog" exact component={Blog} />}*/}
     {showBlog && <Route path="/blog/:id" component={BlogPost} />}
     <Footer />
   </BrowserRouter>
